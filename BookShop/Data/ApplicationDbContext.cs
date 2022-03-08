@@ -9,5 +9,6 @@ namespace BookShop.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Bio> Bios { get; set; }
     }
 }
